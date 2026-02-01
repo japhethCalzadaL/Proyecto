@@ -31,7 +31,11 @@ This is a basic FastAPI project with Docker support.
 
 1.  Build and run with Docker Compose:
     ```bash
-    docker-compose up --build
+    ./run_docker.sh
+    ```
+    Or manually:
+    ```bash
+    docker compose up --build
     ```
 
     The API will be available at `http://localhost:8000`.
